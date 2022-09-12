@@ -24,11 +24,11 @@ std::string Post::getBody() const {
     return post_body;
 };
 
-void Post::getTimeStamp() {
+void Post::getTimeStamp() const {
     std::cout << asctime(localtime(&time_stamp_));
 };
 
-void Post::displayPost() {
+void Post::displayPost() const {
     std::cout << getTitle() << " posted at ";
     getTimeStamp();
     std::cout << getBody() << std::endl;

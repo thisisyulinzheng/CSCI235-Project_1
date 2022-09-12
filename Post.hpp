@@ -9,8 +9,8 @@ class Post {
         std::string getTitle() const;
         void setBody(const std::string& post_body);
         std::string getBody() const;
-        void getTimeStamp();
-        void displayPost();
+        void getTimeStamp() const;
+        void displayPost() const;
 
     private:
         std::string post_title;

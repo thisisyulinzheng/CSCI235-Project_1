@@ -12,7 +12,7 @@ class Account {
         void setPassword(const std::string& password);
         std::string getPassword() const;
         bool addPost(const std::string& post_title, const std::string& post_body);
-        void viewPosts();
+        void viewPosts() const;
     private:
         std::string username;
         std::string password;

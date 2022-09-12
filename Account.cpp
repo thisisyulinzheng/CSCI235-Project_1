@@ -42,7 +42,7 @@ bool Account::addPost(const std::string& post_title, const std::string& post_bod
     }
 }
 
-void Account::viewPosts() {
+void Account::viewPosts() const {
     for (int i = 0; i < user_posts.size(); i++) {
         user_posts[i].displayPost();
     }
