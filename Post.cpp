@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Post.hpp"
 
-Post::Post(std::string post_title, std::string post_body) {
+Post::Post(const std::string post_title, const std::string post_body) {
     setTitle(post_title);
     setBody(post_body);
     time(&time_stamp_);

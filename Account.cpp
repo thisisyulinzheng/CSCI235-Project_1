@@ -8,7 +8,7 @@ Account::Account() {
     user_posts = new_post_vector;
 };
 
-Account::Account(std::string username, std::string password) {
+Account::Account(const std::string username, const std::string password) {
     setUsername(username);
     setPassword(password);
     std::vector<Post> new_post_vector;

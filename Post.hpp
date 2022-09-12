@@ -4,7 +4,7 @@
 
 class Post {
     public:
-        Post(std::string post_title, std::string post_body);
+        Post(const std::string post_title, const std::string post_body);
         void setTitle(const std::string& post_title);
         std::string getTitle() const;
         void setBody(const std::string& post_body);

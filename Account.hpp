@@ -6,7 +6,7 @@
 class Account {
     public:
         Account();
-        Account(std::string username, std::string password);
+        Account(const std::string username, const std::string password);
         void setUsername(const std::string& username);
         std::string getUsername() const;
         void setPassword(const std::string& password);
